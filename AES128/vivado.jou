@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Sep  5 18:40:29 2021
+# Process ID: 12632
+# Current directory: E:/Working/Digital Design/Projects/AES/AES-Repo/AES128
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10716 E:\Working\Digital Design\Projects\AES\AES-Repo\AES128\AES128.xpr
+# Log file: E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/vivado.log
+# Journal file: E:/Working/Digital Design/Projects/AES/AES-Repo/AES128\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.xpr}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+set_property board_part xilinx.com:sp701:part0:1.0 [current_project]
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source subBytestb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+source subBytestb.tcl
+relaunch_sim
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source subBytestb.tcl
+add_bp {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/imports/Sub-Bytes/subBytes.v} 31
+remove_bps -file {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/imports/Sub-Bytes/subBytes.v} -line 31
+add_bp {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/imports/Sub-Bytes/subBytes.v} 31
+remove_bps -file {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/imports/Sub-Bytes/subBytes.v} -line 31
+close_sim
+launch_simulation
+source subBytestb.tcl
+close_sim
+launch_simulation
+source subBytestb.tcl
+close_sim
+launch_simulation
+source subBytestb.tcl
+close_sim
+launch_simulation
+source subBytestb.tcl
+close_sim
+launch_simulation
+source subBytestb.tcl
+close_sim
+launch_simulation
+source subBytestb.tcl
+close_sim

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AES128.srcs/sources_1/new/Top.v" \
+"../../../../AES128.srcs/sources_1/new/subBytes.v" \
+"../../../../AES128.srcs/sources_1/new/shiftRows.v" \
+"../../../../AES128.srcs/sim_1/new/subBytestb.v" \
+"../../../../AES128.srcs/sim_1/new/shiftRowstb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
