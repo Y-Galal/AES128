@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s100fgga676-2" LaunchTime="1630864331">
-  <File Type="PA-TCL" Name="subBytes.tcl"/>
-  <File Type="REPORTS-TCL" Name="subBytes_reports.tcl"/>
-  <File Type="RDS-RDS" Name="subBytes.vds"/>
-  <File Type="RDS-UTIL" Name="subBytes_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="subBytes_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="subBytes.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7s100fgga676-2" LaunchTime="1630963559">
+  <File Type="PA-TCL" Name="shiftRows.tcl"/>
+  <File Type="REPORTS-TCL" Name="shiftRows_reports.tcl"/>
+  <File Type="RDS-RDS" Name="shiftRows.vds"/>
+  <File Type="RDS-DCP" Name="shiftRows.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Top.v">
@@ -15,7 +13,27 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/Sub-Bytes/subBytes.v">
+    <File Path="$PSRCDIR/sources_1/new/subBytes.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Sbox.data">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/shiftRows.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mixColumns.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -24,7 +42,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="subBytes"/>
+      <Option Name="TopModule" Val="shiftRows"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

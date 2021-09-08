@@ -26,7 +26,7 @@ reg clk;
 
 reg [127:0] SRInput;
 wire [127:0] SROutput;
-reg startSig;
+
 
 shiftRows SR1(  .SR_Input(SRInput), .SR_Output(SROutput), .clock(clk));
 
@@ -34,7 +34,6 @@ initial
 begin
 clk=0;
 SRInput =0;
-startSig =0;
 #100;
 //adding simulation
 

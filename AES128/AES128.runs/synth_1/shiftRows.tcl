@@ -29,9 +29,12 @@ set_property target_language Verilog [current_project]
 set_property board_part xilinx.com:sp701:part0:1.0 [current_project]
 set_property ip_output_repo {e:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
+read_mem {{E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/Sbox.data}}
 read_verilog -library xil_defaultlib {
   {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/Top.v}
-  {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/imports/Sub-Bytes/subBytes.v}
+  {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/subBytes.v}
+  {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/shiftRows.v}
+  {E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/mixColumns.v}
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -44,12 +47,12 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
-synth_design -top subBytes -part xc7s100fgga676-2
+synth_design -top shiftRows -part xc7s100fgga676-2
 
 
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef subBytes.dcp
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file subBytes_utilization_synth.rpt -pb subBytes_utilization_synth.pb"
+write_checkpoint -force -noxdef shiftRows.dcp
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file shiftRows_utilization_synth.rpt -pb shiftRows_utilization_synth.pb"
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

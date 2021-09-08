@@ -1,7 +1,19 @@
 Vivado Simulator 2019.1
 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ea21387a745b4e9984d55785c793b370 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot shiftRowstb_behav xil_defaultlib.shiftRowstb xil_defaultlib.glbl -log elaborate.log 
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ea21387a745b4e9984d55785c793b370 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Toptb_behav xil_defaultlib.Toptb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FSM
+Compiling module xil_defaultlib.subBytes
+Compiling module xil_defaultlib.shiftRows
+Compiling module xil_defaultlib.mixColumns
+Compiling module xil_defaultlib.GeneralReg
+Compiling module xil_defaultlib.addroundkey
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.Toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Toptb_behav

@@ -1,13 +1,13 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Sun Sep  5 19:52:41 2021
+| Date         : Mon Sep  6 23:26:32 2021
 | Host         : Youssef-DELL running 64-bit major release  (build 9200)
-| Command      : report_utilization -file subBytes_utilization_synth.rpt -pb subBytes_utilization_synth.pb
-| Design       : subBytes
+| Command      : report_utilization -file shiftRows_utilization_synth.rpt -pb shiftRows_utilization_synth.pb
+| Design       : shiftRows
 | Device       : 7s100fgga676-2
 | Design State : Synthesized
------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 
 Utilization Design Information
 
@@ -30,11 +30,11 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |  640 |     0 |     64000 |  1.00 |
-|   LUT as Logic          |  640 |     0 |     64000 |  1.00 |
+| Slice LUTs*             |    0 |     0 |     64000 |  0.00 |
+|   LUT as Logic          |    0 |     0 |     64000 |  0.00 |
 |   LUT as Memory         |    0 |     0 |     17600 |  0.00 |
-| Slice Registers         |  128 |     0 |    128000 |  0.10 |
-|   Register as Flip Flop |  128 |     0 |    128000 |  0.10 |
+| Slice Registers         |    0 |     0 |    128000 |  0.00 |
+|   Register as Flip Flop |    0 |     0 |    128000 |  0.00 |
 |   Register as Latch     |    0 |     0 |    128000 |  0.00 |
 | F7 Muxes                |    0 |     0 |     32000 |  0.00 |
 | F8 Muxes                |    0 |     0 |     16000 |  0.00 |
@@ -57,7 +57,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 128   |          Yes |       Reset |            - |
+| 0     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -90,7 +90,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |  258 |     0 |       400 | 64.50 |
+| Bonded IOB                  |  256 |     0 |       400 | 64.00 |
 | Bonded IPADs                |    0 |     0 |         2 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         8 |  0.00 |
 | PHASER_REF                  |    0 |     0 |         8 |  0.00 |
@@ -112,7 +112,7 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Fixed | Available | Util% |
 +------------+------+-------+-----------+-------+
-| BUFGCTRL   |    1 |     0 |        32 |  3.13 |
+| BUFGCTRL   |    0 |     0 |        32 |  0.00 |
 | BUFIO      |    0 |     0 |        32 |  0.00 |
 | MMCME2_ADV |    0 |     0 |         8 |  0.00 |
 | PLLE2_ADV  |    0 |     0 |         8 |  0.00 |
@@ -145,11 +145,8 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| LUT6     |  640 |                 LUT |
-| IBUF     |  130 |                  IO |
 | OBUF     |  128 |                  IO |
-| FDRE     |  128 |        Flop & Latch |
-| BUFG     |    1 |               Clock |
+| IBUF     |  128 |                  IO |
 +----------+------+---------------------+
 
 

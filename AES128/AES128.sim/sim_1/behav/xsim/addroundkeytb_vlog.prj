@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AES128.srcs/sources_1/new/Top.v" \
+"../../../../AES128.srcs/sources_1/new/subBytes.v" \
+"../../../../AES128.srcs/sources_1/new/shiftRows.v" \
+"../../../../AES128.srcs/sources_1/new/mixColumns.v" \
+"../../../../AES128.srcs/sources_1/new/addroundkey.v" \
+"../../../../AES128.srcs/sources_1/new/generalReg.v" \
+"../../../../AES128.srcs/sources_1/new/FSM.v" \
+"../../../../AES128.srcs/sim_1/new/subBytestb.v" \
+"../../../../AES128.srcs/sim_1/new/shiftRowstb.v" \
+"../../../../AES128.srcs/sim_1/new/mixColumnstb.v" \
+"../../../../AES128.srcs/sim_1/new/Toptb.v" \
+"../../../../AES128.srcs/sim_1/new/addroundkeytb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

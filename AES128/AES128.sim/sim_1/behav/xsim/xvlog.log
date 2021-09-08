@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/subBytes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subBytes
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/shiftRows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftRows
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/mixColumns.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mixColumns
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/addroundkey.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addroundkey
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/generalReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GeneralReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sources_1/new/FSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sim_1/new/subBytestb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subBytestb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sim_1/new/shiftRowstb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftRowstb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sim_1/new/mixColumnstb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mixColumnstb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sim_1/new/Toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Toptb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.srcs/sim_1/new/addroundkeytb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addroundkeytb

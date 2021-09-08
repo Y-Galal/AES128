@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Toptb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Toptb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="335220000fs"></ZoomStartTime>
+      <ZoomEndTime time="643220001fs"></ZoomEndTime>
+      <Cursor1Time time="460720000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="240"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/Toptb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/dataIn" type="array">
+      <obj_property name="ElementShortName">dataIn[127:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/keyIn" type="array">
+      <obj_property name="ElementShortName">keyIn[127:0]</obj_property>
+      <obj_property name="ObjectShortName">keyIn[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/encrypted" type="array">
+      <obj_property name="ElementShortName">encrypted[127:0]</obj_property>
+      <obj_property name="ObjectShortName">encrypted[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/startSig" type="logic">
+      <obj_property name="ElementShortName">startSig</obj_property>
+      <obj_property name="ObjectShortName">startSig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/SBInput" type="array">
+      <obj_property name="ElementShortName">SBInput[127:0]</obj_property>
+      <obj_property name="ObjectShortName">SBInput[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/SBOut" type="array">
+      <obj_property name="ElementShortName">SBOut[127:0]</obj_property>
+      <obj_property name="ObjectShortName">SBOut[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/SROut" type="array">
+      <obj_property name="ElementShortName">SROut[127:0]</obj_property>
+      <obj_property name="ObjectShortName">SROut[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/MCOut" type="array">
+      <obj_property name="ElementShortName">MCOut[127:0]</obj_property>
+      <obj_property name="ObjectShortName">MCOut[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U1/currentState" type="array">
+      <obj_property name="ElementShortName">currentState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">currentState[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U5/roundKey" type="array">
+      <obj_property name="ElementShortName">roundKey[127:0]</obj_property>
+      <obj_property name="ObjectShortName">roundKey[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U5/newKey" type="array">
+      <obj_property name="ElementShortName">newKey[127:0]</obj_property>
+      <obj_property name="ObjectShortName">newKey[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U5/s4" type="logic">
+      <obj_property name="ElementShortName">s4</obj_property>
+      <obj_property name="ObjectShortName">s4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U5/rcon" type="array">
+      <obj_property name="ElementShortName">rcon[0:9][7:0]</obj_property>
+      <obj_property name="ObjectShortName">rcon[0:9][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U5/SBox" type="array">
+      <obj_property name="ElementShortName">SBox[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">SBox[0:255][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U5/keyout" type="array">
+      <obj_property name="ElementShortName">keyout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">keyout[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U5/i" type="array">
+      <obj_property name="ElementShortName">i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/REG3/Data" type="array">
+      <obj_property name="ElementShortName">Data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/REG3/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/REG3/Q" type="array">
+      <obj_property name="ElementShortName">Q[127:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/REG3/len" type="array">
+      <obj_property name="ElementShortName">len[31:0]</obj_property>
+      <obj_property name="ObjectShortName">len[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U5/i" type="array">
+      <obj_property name="ElementShortName">i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U5/keyout" type="array">
+      <obj_property name="ElementShortName">keyout[127:0]</obj_property>
+      <obj_property name="ObjectShortName">keyout[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/U1/currentState" type="array">
+      <obj_property name="ElementShortName">currentState[2:0]</obj_property>
+      <obj_property name="ObjectShortName">currentState[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/REG4/Data" type="array">
+      <obj_property name="ElementShortName">Data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Toptb/UUT/REG4/Q" type="array">
+      <obj_property name="ElementShortName">Q[127:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[127:0]</obj_property>
+   </wvobject>
+</wave_config>

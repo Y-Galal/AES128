@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Sep  5 19:52:14 2021
-# Process ID: 13816
+# Start of session at: Mon Sep  6 23:26:02 2021
+# Process ID: 16036
 # Current directory: E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.runs/synth_1
-# Command line: vivado.exe -log subBytes.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source subBytes.tcl
-# Log file: E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.runs/synth_1/subBytes.vds
+# Command line: vivado.exe -log shiftRows.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source shiftRows.tcl
+# Log file: E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.runs/synth_1/shiftRows.vds
 # Journal file: E:/Working/Digital Design/Projects/AES/AES-Repo/AES128/AES128.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source subBytes.tcl -notrace
+source shiftRows.tcl -notrace
